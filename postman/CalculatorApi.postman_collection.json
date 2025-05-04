@@ -1,0 +1,59 @@
+{
+	"info": {
+		"_postman_id": "74cca847-1df9-43b9-8080-7c407b919538",
+		"name": "CalculatorApi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "44645544",
+		"_collection_link": "https://michell-196043.postman.co/workspace/michell's-Workspace~8319f884-5a9e-4ba9-8364-b1917422ab41/collection/44645544-74cca847-1df9-43b9-8080-7c407b919538?action=share&source=collection_link&creator=44645544"
+	},
+	"item": [
+		{
+			"name": "register",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "history",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "history/id",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "calculate",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "delete",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
