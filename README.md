@@ -70,4 +70,6 @@ Desde el archivo Apiapplication.java haz clic en Run
 
 📂 Colección Postman
 Se incluye una colección Postman en el repositorio:
-postman/Postman_CalculadoraAPI.json
+postman/CalculatorApi.postman_collection.json
+
+
