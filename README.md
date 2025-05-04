@@ -72,4 +72,27 @@ Desde el archivo Apiapplication.java haz clic en Run
 Se incluye una colección Postman en el repositorio:
 postman/CalculatorApi.postman_collection.json
 
+Ejemplos con httpie
+
+http POST http://localhost:8080/api/auth/register \
+  username=test2 email=test@example.com password=654321
+
+http POST http://localhost:8080/api/auth/login \
+  username=test2 password=654321
+
+http POST http://localhost:8080/api/calculate \
+  Authorization:"Bearer <TOKEN>" \
+  operation==MULTIPLICATION operandA:=7.5 operandB:=4.2
+
+http GET "http://localhost:8080/api/history?page==0&size==5&sort==timestamp,asc" \
+  Authorization:"Bearer <TOKEN>"
+
+http DELETE http://localhost:8080/api/history/{id} \
+  Authorization:"Bearer <TOKEN>"
+
+## 📦 Anotaciones adicionales
+
+- Los metodos de register y login no requieren la validacion de Jwt
+- El metodo de login retorna el token que debe usarse para el resto de peticiones
+- Este token debe ponerse como un bearer token al momento de realizar calculos o consultas del historial
 
